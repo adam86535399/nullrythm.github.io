@@ -1,0 +1,15 @@
+# --- Configuration GitHub Pages pour Null Rythm ---
+title: "Null Rythm"
+description: "Mod Menu Null Rythm — version v1. Téléchargement, aperçu et lien Telegram."
+theme: null  # On désactive les thèmes par défaut de GitHub Pages
+markdown: kramdown
+plugins: []  # pas de plugin pour un site purement statique
+exclude:
+  - README.md
+  - LICENSE
+  - "*.psd"
+  - "*.zip"
+baseurl: ""  # laisse vide si ton site est à https://tonpseudo.github.io/tonrepo/
+url: "https://tonpseudo.github.io/tonrepo"  # remplace tonpseudo et tonrepo
+encoding: "utf-8"
+permalink: pretty
